@@ -1,4 +1,4 @@
-﻿//All Copyright Reserved to Wei Zeng
+﻿// Copyright (c) 2020 Wei Zeng, All Rights Reserved.
 using System;
 
 namespace Adventure

@@ -17,4 +17,11 @@
 			\ Whenever a gameOver is ture, the program exit and did not stay for the gameover dialog.
 			\ After healing, player stats is unable to updated to the right HP.
 			
+		Links: https://github.com/We1Z/C-_1
+
+
+
+
+			
+			
 	

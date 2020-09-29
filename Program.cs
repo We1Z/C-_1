@@ -227,16 +227,9 @@ namespace Adventure
                         break;
                     }
                     case "Heal": {
-                        if(health <= 100 )
-                        {
-                            locationIndex = 12;
-                            health = 100;
-                            Console.WriteLine("\n" + "Insid the portal, You reach to your backpack for a healing potion. " + "\n" + $" Player Stats || HP: {health}|| Mana:100 || ");
-                        }
-                        else{
-                            locationIndex = 5;
-                            Console.WriteLine("\n" + "Insid the portal, You reach to your backpack for a healing potion. " + "\n" + $" Player Stats || HP: {health}|| Mana:100 || ");
-                        }
+                        health=100;
+                        Console.WriteLine("\n" + "Insid the portal, You reach to your backpack for a healing potion. " + "\n" + $" Player Stats || HP: {health}|| Mana:100 || ");
+                        locationIndex = 12;
 
                         break;
                     }

@@ -48,7 +48,7 @@ namespace Adventure
                             +"There will be item a book of the four ancient monsters that are defending the last ancient artifact. " + "\n" 
                             + "\n" +"The book will comsume your HP by 50, so that in return it lead you to the ancient monsters"
                             +"\n"+ $" Player Stats || HP:100 || Mana:100 || " + "\n");
-            _gameMap[1,1] = new Location( "You enter the portal in northeast which is a snowmountain where the White Tiger lives, lots of tree being bent by snow."+  "\n" +" Now, you encounter the White Tiger. " + "\n"
+            _gameMap[1,1] = new Location( "You enter the portal in northwest which is a snowmountain where the White Tiger lives, lots of tree being bent by snow."+  "\n" +" Now, you encounter the White Tiger. " + "\n"
                             + $" Player Stats || HP:100 || Mana:100 || " + "\n");
             _gameMap[1,2] = new Location("Vermilion bird have caught you and drop you into her nest which is a place located at the top edge of the flame mountain. Giving you no place to escape ..." + "\n"
                             + $" Player Stats || HP:100 || Mana:100 || " + "\n");
@@ -58,7 +58,7 @@ namespace Adventure
                             + $" Player Stats || HP:100 || Mana:100 || " + "\n");
             _gameMap[2,0] = new Location("You have finished one of the ancient monster, Congradulations!!!!!!" + "\n" + 
                             "You have collect enough ancient artifacts." + "\n" + 
-                            "Then you start to falling as the floating platform starts to broken down.");
+                            "Then you start to falling as the floating platform starts to broken down."+ "\n" + "----------GAMEOVER---------");
         }
 
 

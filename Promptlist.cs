@@ -56,6 +56,7 @@ namespace Adventure
                             "b) Type \"Heal\"  to return to rock platform and get HP back to 100.");
             _gamePrompt[1,4] = new Location("What do you do?\n" + "\n"+
                             "Type \"Close\" to close you eyes");
+            _gamePrompt[2,0] = new Location("Nice Work!!!");
         
         }
 

@@ -158,34 +158,44 @@ namespace Adventure
 
             case "Sword":{
                         Console.WriteLine("\n" + "swirling sword towards white tiger, the white tiger jumps up very high, but when it falls, you end the fight with your sword penetrating its body." + "\n");
+                        _player.LocX = 2;
+                        _player.LocY = 0;
                         break;
 
                         }
 
             case "Sniper":{
                         Console.WriteLine("\n" + "You jump right off the cliff while You aiming in mid air, 3, 2, 1... Shot went right through its eyes." + "\n");
+                        _player.LocX = 2;
+                        _player.LocY = 0;
                         break;
 
                         }
 
             case "Torpedo":{
                         Console.WriteLine("\n" + "Getting into the luancher, 3, 2, 1..... Pushed the button, target hit and defeat." + "\n");
+                        _player.LocX = 2;
+                        _player.LocY = 0;
                         break;
 
                         }
 
             case "Air":{
                         Console.WriteLine("\n" + "Calling over air strikes, 3, 2, 1..... Planes starting droping bombs on Azue Dragon." + "\n");
+                        _player.LocX = 2;
+                        _player.LocY = 0;
                         break;
 
                         }
             case "Close":{
                         Console.WriteLine("\n" + "All of a sudden, you wake up in your bed and holding all three ancient artifacts" + "\n");
+                        gameOver =true;
                         break;
                         }
             case "Heal": {
                         Console.WriteLine("\n" + "Insid the portal, You reach to your backpack for a healing potion. " + "\n" + $" Player Stats || HP:100 || Mana:100 || ");
-
+                        _player.LocX = 1;
+                        _player.LocY = 0;
                         break;
                         }
             case "exit": {

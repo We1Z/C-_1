@@ -18,5 +18,11 @@ C#_1
 		Caveats:
 			\ Whenever a gameOver is ture, the program exit and did not stay for the gameover dialog.
 			\ After healing, player stats is unable to updated to the right HP.
+			Healing the player still not working at all, need more thought about it.
+			\ Navigation currently required player to input a lot of words to match the swtich statment
+		
+		To do list:
+			\ clean up the coding
+			\ creating more fun object for player to interact
 			
 		Links: https://github.com/We1Z/C-_1

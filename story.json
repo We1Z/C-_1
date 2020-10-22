@@ -1,0 +1,15 @@
+{
+    //TODO fill out the rest of the locaitons and link it to the main coding
+    "Location":
+    [
+        {
+            "x": 0,
+            "y": 0,
+            "Description":"Location1",
+            "Action": "What do you want to do?",
+            "Prompt": "a) b) c) ....."
+        },{
+
+        }
+    ]
+}

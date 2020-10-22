@@ -10,7 +10,10 @@ namespace Adventure
         private int _mapSize = 0;
         private int locX;
         private int locY;
-
+       
+        //Max item 
+        public const int MAX_ITEMS = 10;
+        private Status[] HP;
 
         //Constructor
         public player( int mapSize, string name = "Hunter" )
